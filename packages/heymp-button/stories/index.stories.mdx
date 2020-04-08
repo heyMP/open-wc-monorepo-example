@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../heymp-button.js';
+
+<Meta 
+  title="HeympButton"
+  parameters={{
+    component: "heymp-button",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# HeympButton
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add heymp-button
+```
+
+```js
+import 'heymp-button/heymp-button.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <heymp-button></heymp-button>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="heymp-button" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Title">
+  {html`
+    <heymp-button .title=${'Hello World'}></heymp-button>
+  `}
+</Story>

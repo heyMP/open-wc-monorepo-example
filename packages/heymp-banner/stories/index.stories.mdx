@@ -1,0 +1,55 @@
+import { Story, Preview, Meta, Props, html } from '@open-wc/demoing-storybook';
+
+import '../heymp-banner.js';
+
+<Meta 
+  title="HeympBanner"
+  parameters={{
+    component: "heymp-banner",
+    options: { selectedPanel: "storybookjs/knobs/panel" }
+  }}
+/>
+
+# HeympBanner
+
+A component for...
+
+## Features:
+
+- a
+- b
+- ...
+
+## How to use
+
+### Installation
+
+```bash
+yarn add heymp-banner
+```
+
+```js
+import 'heymp-banner/heymp-banner.js';
+```
+
+<Preview withToolbar>
+  <Story name="Simple">
+    {html`
+      <heymp-banner></heymp-banner>
+    `}
+  </Story>
+</Preview>
+
+## API
+
+<Props of="heymp-banner" />
+
+## Variations
+
+###### Custom Title
+
+<Story name="Custom Title">
+  {html`
+    <heymp-banner .title=${'Hello World'}></heymp-banner>
+  `}
+</Story>
