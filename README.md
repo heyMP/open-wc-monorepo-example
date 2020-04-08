@@ -41,3 +41,5 @@ Edit your new web component's start script in the package.json file. We are goin
   }
 }
 ```
+
+More information on why we need to do this can be found in this issue: https://github.com/open-wc/open-wc/issues/1408
